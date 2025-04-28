@@ -1,0 +1,88 @@
+
+#include <stdio.h>
+
+int main()
+{
+	char a;
+	printf("Enter chocolate name:");
+	scanf("%c",&a);
+	switch(a)
+	{
+
+	case 'b':
+	{
+		printf("britania");
+		printf("\n");
+		printf("10 RS");
+		printf("\n");
+		break;
+	}
+	case 'c':
+	{
+		printf("cadbuary");
+		printf("\n");
+		printf("20 RS");
+		printf("\n");
+		break;
+	}
+	case 'd':
+	{
+		printf("diary milk");
+		printf("\n");
+		printf("30 RS");
+		printf("\n");
+		break;
+	}
+	case'e':
+		{
+		    printf("eclairs");
+		    printf("\n");
+		    printf("1 RS");
+		    printf("\n");
+		    break;
+		}
+	case'f':
+			{
+			    printf("ferraro rocher");
+			    printf("\n");
+			    printf("300 RS");
+			    printf("\n");
+			    break;
+			}
+	case'g':
+	{
+		printf("goat milk chocolate");
+		printf("\n");
+		printf("50 RS");
+		printf("\n");
+		break;
+
+	}
+	case 'h':
+	{
+		printf("hot chocolate");
+		printf("\n");
+		printf("200 RS");
+		printf("\n");
+		break;
+	}
+	case 'i':
+	{
+		printf("ice chocolate");
+		printf("\n");
+		printf("600 RS");
+		printf("\n");
+		break;
+	}
+	case 'k':
+	{
+		printf("kitkat");
+		printf("\n");
+		printf("80 RS");
+		printf("\n");
+		break;
+	}
+	}
+	return 0;
+
+}
